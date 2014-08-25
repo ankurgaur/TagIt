@@ -1,3 +1,6 @@
 from django.contrib import admin
+from TagItApp.models import Tag, Link, User
 
-# Register your models here.
+admin.site.register(Tag)
+admin.site.register(Link)
+admin.site.register(User)
